@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  font: 400 18px/28px Inter, sans-serif;
+  background: #EFEFF2;
+  color: #19191C
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (min-width: 1600px) {
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+}
+
+
+h1 {font: 700 58px/87px Inter, sans-serif}
+h2 {font: 700 34px/51px Inter, sans-serif}
+h3 {font: 700 26px/39px Inter, sans-serif}
+h4 {font: 600 24px/36px Inter, sans-serif}
+h5{font: 600 20px/30px Inter, sans-serif}
+h6{font: 600 18px/27px Inter, sans-serif}
+h6.strong{font: 700 18px/27px Inter, sans-serif}
+
+
+.header{
+  display: flex;
+  padding: 36px 0 0;
+  justify-content: space-between;
+}
+
+.header a.logo {
+  display: flex;
+  align-items: center;
+  font: 700 24px/36px Inter, sans-serif;
+}
+.header a{
+  text-decoration: none;
+  color: #19191C;
+}
+
+.header__box{
+  display: flex;
+  align-items: center;
+  gap: 98px;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+  padding: 0;
+  margin: 0;
+}
+
+.btn-nav-block{
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+
+.btn-nav-block a.btn{
+  background: #19191C;
+  color: #EFEFF2;
+  padding: 12px 37px;
+  font-weight: 700;
+}
+
+
+#hero {
+
+}
+#hero h1 {color: #19191C;font-size: 58px; font-weight: 800;}
+#hero p {color: #19191C; font-size: 18px; }
+
+#promo time{
+
+}
+#promo ul li a{
+
+}
+
+.block1 .intro h2{
+
+}
+
+.block1 .intro p{
+    
+}
+
+.block1 .numbers #num1 {
+
+}
+
+.block1 .numbers #num1 span {
+    
+}
+
+.cardsNav {
+  display: flex;
+  align-items: center;
+}
+
+.cardsNav a {
+    margin: 20px
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+}
+
+footer{
+  background: #19191C;
+  color: #6D6D77;
+  padding: 36px 0
+}
+
+.footer h6{
+  color: #FBFBFC;
+  padding: 24px 0
+}
+
+.footer li{
+  list-style: none;
+}
+
+.footer a{
+  color: #FBFBFC;
+  text-decoration: none;
+  font: 400 18px/28px Inter, sans-serif;
+}
+
+.footer__logo a{
+  font: 700 18px/24px Inter, sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 24px 0;
+}
+
+
+.footer a.bold{
+  font: 600 24px/36px Inter, sans-serif;
+  display: block;
+}
+
+div.footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.privacy-nav {
+  text-align: center;
+  padding: 72px 0 0
+}
+.privacy-nav a {
+  color: #6D6D77;
+}
+
+
+
